@@ -1,0 +1,10 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "PrzelicznikGlukozy",
+    "short_name": "Glokoza",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Prosty przelicznik jednostek glukozy"
+}
+  
