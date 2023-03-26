@@ -62,7 +62,7 @@
         function przelicz(el, unit) {
             let val = parseFloat(el.value.replace(",", "."));
             if (unit == "mmol/L")
-                val = toMgdl(va);
+                val = toMgdl(val);
             else if (unit == 'mg/dL')
                 val = toMmol(val);
             else{
