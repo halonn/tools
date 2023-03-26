@@ -73,6 +73,8 @@
                 el.dataset["error"] ="Musisz podać liczbę."; 
                 el.setCustomValidity("Musisz podać liczbę.");
                 return "";
+            }else{
+                el.setCustomValidity("");
             }
             return val.toFixed(1);
         }
