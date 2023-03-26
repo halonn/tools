@@ -3,11 +3,12 @@
     "short_name": "Glukoza",
     "display": "standalone",
     "background_color": "#eee",
+    "theme_color":"#eee",
     "description": "Prosty przelicznik jednostek glukozy",
      "icons": [{
         "src": "logo.png",
         "type": "image/png",
-        "sizes": "180x180"
+        "sizes": "144x144"
     }]
 }
   
