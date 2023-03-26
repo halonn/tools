@@ -3,8 +3,8 @@ self.oninstall = function(event) {
         caches.open('assets-v1').then(function(cache) {
             return cache.addAll([
                 './',
-                './index.html'
-                
+                './index.html',
+                './logo.png'                
             ]);
         })
     );
