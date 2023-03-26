@@ -49,10 +49,10 @@
             navigator.serviceWorker.register('sw.js').then(function () { console.log('SW registered!'); });
         }
         function toMgdl(val){
-            return val * 18.0182;
+            return val / 18.0182;
         }
         function toMmol(val){
-            return val / 18.0182;
+            return val * 18.0182;
         }
 
         /**
@@ -78,7 +78,7 @@
         }
 
         const przyklady = new Array(10).fill(1).map( (_, i) => (i+1)*20);
-        const content = przyklady.map(element => `<tr><td>${element}</td><td>${toMmol(element).toFixed(1)}</td></tr>`).join("");
+        const content = przyklady.map(element => `<tr><td>${element}</td><td>${toMgdl(element).toFixed(1)}</td></tr>`).join("");
         document.getElementById("ref_values").innerHTML = content;
     </script>
 </body>
